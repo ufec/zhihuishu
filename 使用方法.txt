@@ -1,0 +1,18 @@
+sha256 74699A7B63246561988FE33936B1B880EBC18909D65D1D010537210FCA10BED7
+
+打开智慧树正常登录
+
+按F12，刷新页面，点击面板 网络 / Network
+
+搜索：getLoginUserInfo
+
+响应中找到 uuid
+
+请求头Cookie中找到 SESSION，从SESSION 开始复制到分号结束 这是cookie1
+
+
+点击任意一门课
+
+面板 网络 / Network，搜索：loadVideoPointerInfo
+
+依然在请求头 Cookie中找SESSION，
